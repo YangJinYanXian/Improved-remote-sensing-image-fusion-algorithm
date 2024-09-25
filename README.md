@@ -53,8 +53,12 @@
 ***视觉结果：***在降低分辨率的 Rio 数据集（传感器：WorldView-3）上所有比较方法的视觉比较。
 
 | **GT** | **MTF-GLP-FS** | **MTF-GLP-HPM-R** |
-
-![untitled1](site\clip_image007.png)![untitled5](site\clip_image008.png)![untitled4](site\clip_image009.png)
+<img src="site\clip_image007.png" width = "25%" />
+<img src="site\clip_image008.png" width = "25%" />
+<img src="site\clip_image009.png" width = "25%" />
+![untitled1](site\clip_image007.png)!
+[untitled5](site\clip_image008.png)!
+[untitled4](site\clip_image009.png)
 
 | **BDSD-PC** | **BT-H** | **NEWNet** |
 
