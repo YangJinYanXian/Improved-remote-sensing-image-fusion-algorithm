@@ -20,19 +20,19 @@
 
  ***MRA B模块：***
 
-<img src="site/1.png" width = "80%" />
+<img src="site/1.png" width = "60%" />
 
 ***PAN模块：***
 
-<img src="site/2.png" width = "80%" />
+<img src="site/2.png" width = "60%" />
 
 ***MS模块：***
 
-<img src="site/3.png" width = "80%" />
+<img src="site/3.png" width = "60%" />
 
 ***损失函数模块：***
 
-<img src="site/4.png" width = "80%" />
+<img src="site/4.png" width = "60%" />
 
 设![img](site\clip_image001.gif)分别表示第一级，第二级和第三级的输出，![img](site\clip_image003.gif)分别表示第一级，第二级和第三级的GT图像。我们为这三个层次的监督学习定义了以下损失函数:
 
@@ -52,17 +52,19 @@
 
 ***视觉结果：***在降低分辨率的 Rio 数据集（传感器：WorldView-3）上所有比较方法的视觉比较。
 
+
+
 | **GT** | **MTF-GLP-FS** | **MTF-GLP-HPM-R** |
-<img src="site\clip_image007.png" width = "25%" />
-<img src="site\clip_image008.png" width = "25%" />
-<img src="site\clip_image009.png" width = "25%" />
-![untitled1](site\clip_image007.png)!
-[untitled5](site\clip_image008.png)!
-[untitled4](site\clip_image009.png)
+
+<img src="site\clip_image007.png" width = "25%" /><img src="site\clip_image008.png" width = "25%" /><img src="site\clip_image009.png" width = "25%" />
+
+
 
 | **BDSD-PC** | **BT-H** | **NEWNet** |
 
-![untitled3](site\clip_image0010.png)![untitled2](site\clip_image011.png)![untitled7](site\clip_image012.png)
+<img src="site\clip_image0010.png" width = "25%" /><img src="site\clip_image011.png" width = "25%" /><img src="site\clip_image012.png" width = "25%" />
+
+
 
 
 
@@ -70,11 +72,13 @@
 
 | **GT** | **MTF-GLP-FS** | **MTF-GLP-HPM-R** |
 
-![untitled12](site\clip_image0021.png)![untitled52](site\clip_image0022.png)![untitled42](site\clip_image0023.png)
+<img src="site\clip_image0021.png" width = "25%" /><img src="site\clip_image0022.png" width = "25%" /><img src="site\clip_image0023.png" width = "25%" />
+
+
 
 | **BDSD-PC** | **BT-H** | **NEWNet** |
 
-![untitled32](site\clip_image0024.png)![untitled22](site\clip_image0125.png)![untitled62](site\clip_image0126.png)
+<img src="site\clip_image0024.png" width = "25%" /><img src="site\clip_image0125.png" width = "25%" /><img src="site\clip_image0126.png" width = "25%" />
 
 
 
