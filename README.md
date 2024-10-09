@@ -7,14 +7,14 @@
 
 # 数据集准备
 
-​	在这项工作中，我们主要在WorldView-3数据集上进行网络训练，这些数据集可以在网站上下载 WorldView-3（可[在此处](https://www.maxar.com/product-samples/)下载）、QuickBird（可[在此处](https://earth.esa.int/eogateway/catalog/quickbird-full-archive)下载）和高分 2 号（可[在此处](http://www.rscloudmart.com/dataProduct/sample)下载）由于数据集的版权，我们无法上传数据集，您可以下载数据并根据代码进行模拟。
+​	在这项工作中，主要在WorldView-3数据集上进行网络训练，这些数据集可以在网站上下载 WorldView-3（可[在此处](https://www.maxar.com/product-samples/)下载）、QuickBird（可[在此处](https://earth.esa.int/eogateway/catalog/quickbird-full-archive)下载）和高分 2 号（可[在此处](http://www.rscloudmart.com/dataProduct/sample)下载）由于数据集的版权，无法上传数据集，可以下载数据并根据代码进行模拟。
 
 # 开始使用
 
 -   训练和测试代码位于当前文件夹中。
-    - 用于训练的代码是 train.py，而用于测试一张图像 （.mat） 的代码是 main_test_single.py，我们还提供了预训练模型 “pretrained.pth”。
-    - 对于训练，你需要在 main 函数中设置 file_path，也要 adopt to your train set、validate set 和 test set。我们的代码训练 .h5 文件，您可以通过更改 main 函数中的代码来更改它。
-    - 至于测试，你需要在 main 和 test function 中都设置路径来打开和加载文件。
+    - 用于训练的代码是 train.py，而用于测试一张图像 （.mat） 的代码是 main_test_single.py，提供了预训练模型 “pretrained.pth”。
+    - 对于训练，需要在 main 函数中设置 file_path，也要 adopt to your train set、validate set 和 test set。代码训练 .h5 文件，可以通过更改 main 函数中的代码来更改它。
+    - 至于测试，需要在 main 和 test function 中都设置路径来打开和加载文件。
 
 # 方法
 
